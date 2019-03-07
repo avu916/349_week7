@@ -1,0 +1,27 @@
+/* <!-- Andrew Vu
+Stephen Lastimosa
+CPSC 349 --> */
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#left{
+    flex-basis: 48%;
+}
+#right{
+    flex-basis: 48%;
+}
+
+.app_name_info{
+    display: inline-block;
+}
+
+.team_name_info{
+    display: inline-block;
+}
+
+.input-group-text{
+    height: 40px;
+    width: 40px;
+} 

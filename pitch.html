@@ -1,0 +1,72 @@
+<!-- Andrew Vu
+Stephen Lastimosa
+CPSC 349 -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+    <section id = "left">
+    <form id = "team_members">
+        <div class="card card-body">
+        <fieldset>
+          <legend>Team members:</legend>
+          Member #1: <input type="text"><br>
+          Member #2: <input type="text"><br>
+          <br>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseMember" aria-expanded="false" aria-controls="collapseMember">
+                Want to add a 3rd member?
+            </button>
+            <div class="collapse" id="collapseMember">
+            <div class="card card-body">
+                <fieldset>
+                 Member #3: <input type="text"><br>
+                 Instructor Approval <input type="text"><br>
+                 </fieldset>
+            </div>
+            </div>
+        </fieldset>
+        </div>
+    </form>
+    </section>
+    
+    <section id = "right">
+    <form id = "team_info">
+        <fieldset id = "teamapp">
+            <h2>App Name</h2>
+                <div class="app_name_info">
+                    <div class="input-group-text">
+                        <input type="radio" name="radio1" aria-label="Radio button for following text input">
+                    </div>
+                </div>
+                    <input type="text" class="appteam_name" aria-label="Text input with radio button">
+
+            <h2>Team Name</h2>
+            <div class="team_info">
+                    <div class="team_name_info">
+                        <div class="input-group-text">
+                            <input type="radio" name="radio1" aria-label="Radio button for following text input">
+                        </div>
+                    </div>
+                        <input type="text" class="appteam_name" aria-label="Text input with radio button">
+                </div>
+        </fieldset>
+    </form>
+    </section>
+    
+
+    <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
